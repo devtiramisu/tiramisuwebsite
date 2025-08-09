@@ -1,0 +1,60 @@
+/* reset margins and make the whole site background black */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+/* particles background */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 0;
+}
+
+/* menu container */
+.centermenu {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* name */
+.name {
+    color: white;
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+/* links */
+.links {
+    display: flex;
+    gap: 15px; /* Расстояние между иконками */
+}
+
+/* links without outline and background */
+.links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 400;
+}
