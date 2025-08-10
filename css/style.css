@@ -37,7 +37,10 @@ body {
 
 /* name */
 .name {
-    color: white;
+    background: linear-gradient(360deg, #ffffff, #4c4c4c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin: 15px 0;
     font-size: 24px;
 }
@@ -45,7 +48,7 @@ body {
 /* links */
 .links {
     display: flex;
-    gap: 15px; /* Расстояние между иконками */
+    gap: 15px;
 }
 
 /* links without outline and background */
@@ -55,6 +58,22 @@ body {
     justify-content: center;
 }
 
+/* a for links */
+.tlinks {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+/* a for text links*/
+.tlinks a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #949494;
+    text-decoration: none;
+}
+
 h1 {
-    font-weight: 400;
+    font-weight: 500;
 }

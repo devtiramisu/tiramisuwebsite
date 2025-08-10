@@ -1,0 +1,49 @@
+html, body { 
+    height: 100%; 
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0;
+}
+
+/* particles background */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: 0;
+}
+
+.content {
+    background-color: #000000;
+    max-width: 830px;
+    max-width: 830px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+/*
+.text {
+    margin-top: 30px;   
+}
+*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #808080;
+}
